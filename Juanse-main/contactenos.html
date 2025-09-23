@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Luxury Coctel - Contáctenos</title>
+    <link rel="icon" type="image/png" href="images/logopestana.png" sizes="64x64">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo-contenedor">
+            <img src="imagenes/logo.jpg" alt="Logo de Luxury Coctel" class="logo">
+        </div>
+        <div class="titulo-contenedor">
+            <h1>LUXURY COCTEL</h1>
+        </div>
+        <nav class="botones-contenedor">
+            <a href="inicio.html" class="menu-boton">Inicio</a>
+            <a href="empresa.html" class="menu-boton">Empresa</a>
+            <a href="productos.html" class="menu-boton">Productos</a>
+            <a href="contactenos.html" class="menu-boton">Contáctenos</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="seccion-contenido">
+            <h2>Contáctenos</h2>
+            <p>¿Tienes alguna pregunta, deseas hacer una cotización para un evento especial o simplemente quieres saludarnos? Por favor, completa el siguiente formulario.</p>
+            <form action="#" method="post" class="formulario-contacto">
+                <div class="campo-form">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo-form">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo-form">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Luxury Coctel. Derechos Reservados.
+    </footer>
+</body>
+</html>
